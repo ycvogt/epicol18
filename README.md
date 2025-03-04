@@ -86,9 +86,19 @@ The app uses Dash for the frontend, Flask as the web server, and SQL for storing
 
 ### **🛠️ Using EPICOL18**
 
-**Step 1**: Download all the files above and contact me about the data files: books.db and ngrams_2.csv, ngrams_3.csv, ngrams_4.csv, ngrams_5.csv. Since they were too big to upload here, I decided to make them available upon request. 
+**Step 1**
 
-**Step 2**: Basic use of Python is necessary to launch the web-app. Ensure all files are in the same directory and that all dependencies are installed that are mentioned in the ```requirements.txt```. Navigate in your terminal to the directory in which all files are stored, then execute the main.py file with python: 
+Download all the files above and contact me about the data files: books.db and ngrams_2.csv, ngrams_3.csv, ngrams_4.csv, ngrams_5.csv. Since they were too big to upload here, I decided to make them available upon request. 
+
+**Step 2**
+
+Basic use of Python is necessary to launch the web-app. Ensure all files are in the same directory and that all dependencies are installed that are mentioned in the ```requirements.txt```. You can do this with the following command:
+
+```
+pip install -r requirements.txt
+```
+
+Navigate in your terminal to the directory in which all files are stored, then execute the main.py file with python: 
 
 ```
 python main.py
@@ -106,7 +116,9 @@ WARNING: This is a development server. Do not use it in a production deployment.
    
 You can ignore the warning. Click either of the http://127.0.0.1:8050 links, which will open a browser window. 
 
-**Step 3**: Now you are on the main page of EPICOL18. Enjoy perusing!
+**Step 3**
+
+Now you are on the main page of EPICOL18. Enjoy perusing!
 
 ### **License**
 
