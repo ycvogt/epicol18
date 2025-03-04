@@ -18,7 +18,7 @@ search_page_layout=html.Div([
 
     # Input for search term
     html.Div([
-        html.Label("Search Query (Regex):", style={'color': '#555'}),
+        html.Label("Search Query (REGEX):", style={'color': '#555'}),
         dcc.Input(id="search-input", type="text", value="polite\w+", debounce=True, style={
                 "width": "100%",
                 "border": "1px solid #ccc",  # Adding a border to match dropdown
