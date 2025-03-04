@@ -19,7 +19,7 @@ diachronic_page_layout = html.Div([
             'color': '#929585'}),
 
         html.Div([
-            html.Label("Search Query (Regex):", style={'font-family': 'Arial, sans-serif', 'color': '#555'}),
+            html.Label("Search Query (REGEX):", style={'font-family': 'Arial, sans-serif', 'color': '#555'}),
             dcc.Input(
                 id="diachronic-search-input",
                 type="text",
