@@ -66,7 +66,7 @@ Based on your text and POS-Tag selection, a table and word cloud with the top 10
 
 **2. Key-Word-In-Context (KWIC)**
 
-Enter a search term using regular expressions[^1] and search its appearanches across the entire corpus. By default, the text search is case-insensitive. The results are displayed in a column format with the left and right context of the search term next to the search term column. Further columns include the publication date and the book it appeared in. At the top, a total count of hits is displayed.
+Enter a search term using regular expressions [1] and search its appearanches across the entire corpus. By default, the text search is case-insensitive. The results are displayed in a column format with the left and right context of the search term next to the search term column. Further columns include the publication date and the book it appeared in. At the top, a total count of hits is displayed.
 
 **3. Diachronic Search**
 
@@ -132,4 +132,4 @@ Please see the sources.txt file for an entire list of the sources for the corpus
 
 Future developments of EPICOL18 may entail launching it as a package, an executable file, or hosting it online to make it more user-friendly. The text selection might also be extended and additional features added (any suggestions are highly welcome). If you have any questions or encounter any problems, feel free to reach out to me!
 
-[^1] For an introduction to regular expressions, see: https://regexr.com/ (last accessed 4 March 2025).
+[1] For an introduction to regular expressions, see: https://regexr.com/ (last accessed 4 March 2025).
