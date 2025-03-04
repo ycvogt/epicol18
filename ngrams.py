@@ -65,7 +65,7 @@ o_layout = html.Div([
 
         # Input field for searching specific word in n-grams
         html.Div([
-            html.Label("Search Query (Regex):", style={'color': '#555'}),
+            html.Label("Search Query (REGEX):", style={'color': '#555'}),
             dcc.Input(id='word-input', type='text', placeholder="Enter a word...", value="\\bhonour\\b", style={
                 "width": "100%",
                 "border": "1px solid #ccc",  # Adding a border to match dropdown
