@@ -2,11 +2,11 @@
 
 ### **📖 About EPICOL18 WebApp** 
 
-The Corpus of Long Eighteenth-Century Epistolary Novels (EPICOL18) lends itself well for genre-specific research questions, text-specific research questions, stylometry and author stylistic analyses. It may also lend itself well for historical corpus linguistic questions, but it should be considered that the spelling was modernised.
+The *Corpus of Long Eighteenth-Century Epistolary Novels* (EPICOL18) lends itself well for genre-specific research questions, text-specific research questions, stylometry and author stylistic analyses. This web-based corpus interface allows for an easy and user-friendly exploration of EPICOL18. It may also lend itself well for historical corpus linguistic questions, but it should be considered that the spelling was modernised and the text was cleaned from any meta-information (e.g. headers, front/back matter). 
 
 ### 📜 **Corpus Structure** 
 
-The texts for this corpus were collected from online databases and archives such as Project Gutenberg, The Oxford Text Archive, The Online Books Page at the University of Pennsylvania, Early English Books Online (EEBO), and Eighteenth Century Collections Online (ECCO). The texts themselves are not necessarily the originally published edition, but rather those that are available on the afore-mentioned platforms. What is counted here, is the original publication date of the text.
+The texts for this corpus were collected from online databases and archives such as *Project Gutenberg*, *The Oxford Text Archive*, *The Online Books Page* at the University of Pennsylvania, *Early English Books Online* (EEBO), and *Eighteenth Century Collections Online* (ECCO). The texts themselves are not necessarily the originally published edition, but rather those that are available on the afore-mentioned platforms. What is counted here, is the original publication date of the text.
 
 Selection criteria:
 
@@ -15,15 +15,15 @@ Selection criteria:
 * not a translation  
 * written by a British author  
 * originally published between 1680 and 1820  
-* acceptable transcription quality and completion"  
+* acceptable transcription quality and completion
 * electronically accessible  
 * copyright free
 
-The time frame for this corpus is set from the years leading up to the Glorious Revolution in 1688 and the years following the end of the Napoleonic Wars in 1815 and the death of George III in 1820\. This time-frame might however be under revision, depending on how the corpus will continue to evolve. Literary resources were           consulted to find and also verify whether a novel qualified as "epistolary" (Beebee 1999, Bray 2003 and others). The corpus was originally designed for my Master's Thesis Project, which analysed lexico-grammatical patterns in the meta-discourse on proper and improper behaviour through collocations. For that reason, the corpus size had to be manageable enough for qualitative contextualization, but also big enough for             statistically sound results. Now, the corpus may be expanded further to allow for a more comprehensive overview of the texts.
+The time frame for this corpus is set from the years leading up to the Glorious Revolution in 1688 and the years following the end of the Napoleonic Wars in 1815 and the death of George III in 1820\. This time-frame might however be under revision, depending on how the corpus will continue to evolve. Literary resources were           consulted to find and also verify whether a novel qualified as "epistolary" (Beebee 1999, Bray 2003 and others). The corpus was originally designed for my Master's Thesis Project, which analysed lexico-grammatical patterns in the meta-discourse on proper and improper behaviour through collocations. For that reason, the corpus size had to be manageable enough for qualitative contextualization, but also big enough for statistically sound results. Now, the corpus may be expanded further to allow for a more comprehensive overview of the texts.
 
 The text was edited to match the modernised spelling in VARD2, and front/back matter as well as chapter headers were removed. For example, remov’d was normalized to removed, ca to can (split from tokenization can’t) and Further manual edits were done to eliminate annotations that might impact machine-readability. Any research concerning old spelling variants or the novel structure is not possible. 
 
-The following table describes the structure of EPICOL. 
+The following table (Table 1) describes the structure of EPICOL. Tokens are individual words.  Types represent unique words and lemmas are the number of unique word root forms. Of the 28 texts,spanning over 4 million words. This corpus was also tagged for parts-of-speech and tokenized with the spacy tagger and tokenizer, which uses the Universal POS-Tag Set. The tagged results were checked and a domain-specific vocabulary with POS-tag mapping was created for frequent mistakes, in addition to manual correction after inspection. This tagger tags with roughly 97 percent reported accuracy for modern texts, and did quite well here as well. Punctuation is excluded.
 
 | Year | Title                                                                      | Author                  | Tokens  | RF(%) | Types | Lemmas |  
 |------|----------------------------------------------------------------------------|-------------------------|---------|-------|-------|--------|  
@@ -56,44 +56,66 @@ The following table describes the structure of EPICOL.
 | 1771 | The Expedition of Humphry Clinker                                          | Tobias Smollett         | 149999  | 3.67  | 12130 | 10743  |  
 | 1693 | Olinda's Adventures: or the Amours of a Young Lady                         | Catharine Trotter       | 22110   | 0.54  | 2240  | 2103   |  
 |      | Total                                                                      |                         | 4089759 | \-    | 33679 | 29222  |
-
-Tokens are counted as ….  
-Types represent unique words and lemmas are the number of unique word root forms.   
-Of the 28 texts,spanning over 4 million words.
-
-This corpus was also tagged for parts-of-speech and tokenized with the spacy tagger and tokenizer, which uses the Universal POS-Tag Set. The tagged results were checked and a domain-specific vocabulary with POS-tag mapping was created for frequent mistakes, in addition to manual correction after inspection. This tagger tags with roughly 97 percent reported accuracy for modern texts, and did quite well here as well.
+Table 1. Works included in EPICOL18 with their token, type and lemma counts.
 
 ### **💡 Functions and Features (with Examples/Screenshots)**
 
 1. **Top Words and Parts-of-Speech** 
 
-Based on your text and POS-Tag selection, a word cloud with the key terms (top 100), i.e. most frequent words excluding stopwords, of the selected books and selected tag option will be generated.  You can then choose to download the resulting image (PNG). As default option, the key terms calculated from all texts are displayed. 
+Based on your text and POS-Tag selection, a table and word cloud with the top 100 key terms of the selected books and selected part-of-speech tag filter will be generated. Key words are the most frequent words excluding stopwords. The table displays the word, its raw frequency and its relative frequency in the selected books. The wordcloud visualizes these results with bigger words being more frequent than smaller words. You can either analyse word frequencies only, or filter them by their part-of-speech additionally. You can then choose to download the resulting Table as a CSV-file and the image as a PNG-file. As default option, the key terms calculated from all texts are displayed. 
 
-2. **N-Grams** 
+2. **Key-Word-In-Context (KWIC)**
 
-Based on your text selection and a search term of your choice (using Regex), and a selection of POS-Tags, create word n-grams spanning two to five words and display their frequencies in a table and a barplot. If you just select a text and do not enter a search term, the most frequent n-grams of the text are shown. 
+Enter a search term using regular expressions and search its appearanches across the entire corpus. By default, the text search is case-insensitive. The results are displayed in a column format with the left and right context of the search term next to the search term column. Further columns include the publication date and the book it appeared in. At the top, a total count of hits is displayed.
 
-By default, the text search is case-insensitive as all ngrams are lowercased.   
-Note: this tool does not allow looping over the entire corpus
+3. **Diachronic Search**
 
-3. **Text Search** 
+Enter a search term using regular expressions and visualize its frequencies across the entire corpus in a diachronic line chart. By default, the text search is case-sensitive. The years on the x-axis correspond to the publication dates of the books, the data points along the y-axis are accumulated frequences of the books in which the search term appears. 
 
-Search for an individual word or phrase (using Regex) in a selection of texts. By default, the text search is case-sensitive. to receive results that exactly match your search term casing.
+4. **Text Search** 
 
-4. **Key-Word in Context (KWIC)** 
+Search for an individual word or phrase using regular expressions in a selection of texts. By default, the text search is case-sensitive. A table and bar chart are generated displaying the tokens that were matched with their raw frequencies in parenthesis, their sum, and normalized frequency with additional information on the size of the book, title, author, and publication year, where it was identified. The table is also downloadable as CSV-file. At the top, a total match count is displayed.
 
-Enter a search term of your choice (no phrases) to look up their immediate contexts and in which texts they appear.
+5. **N-Grams** 
+
+Based on your text selection and a search query formulated as regular expression, create word n-grams spanning two to five words and display their frequencies in a table with their raw and normalized frequencies. By default, the text search is case-insensitive, as all ngrams are lowercased.
 
 ### 🔍 **Technical Details and Requirements**
 
-The app uses Dash for the frontend, Flask as the web server, and SQL for storing and querying the corpus database. It is written in Python and uses an additional style sheet in CSS to add to the HTML structures.  
-In the documentation, refer to libraries, APIs, or tools you used and explain how they integrate with your app (e.g., Dash, Plotly, Pandas, NLTK). 
+The app uses Dash for the frontend, Flask as the web server, and SQL for storing and querying the corpus database. It is written in Python and uses an additional style sheet in CSS to add to the HTML structures. For the requirements, please see the corresponding file.
 
-pip freeze \> requirements.txt 
+### **🛠️ Using EPICOL18**
 
-### **🛠️ Installing** (With screenshots/Examples)
+**Step 1**: Download all the files above and contact me about the data files: books.db and ngrams_2.csv, ngrams_3.csv, ngrams_4.csv, ngrams_5.csv. Since they were too big to upload here, I decided to make them available upon request. 
+
+**Step 2**: Basic use of Python is necessary to launch the web-app. Ensure all files are in the same directory and that all dependencies are installed that are mentioned in the ```requirements.txt```. Navigate in your terminal to the directory in which all files are stored, then execute the main.py file with python: 
+
+```
+python main.py
+```
+
+After a few seconds, this should appear:
+
+```
+Dash is running on http://127.0.0.1:8050/
+ * Serving Flask app 'main'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8050
+```
+   
+You can ignore the warning. Click either of the http://127.0.0.1:8050 links, which will open a browser window. 
+
+**Step 3**: Now you are on the main page of EPICOL18. Enjoy perusing!
 
 ### **License**
 
+You may use my app to do research, but please cite my work appropriately.
+
 ### 📚 **Sources** 
 
+Please see the sources.txt file for an entire list of the sources for the corpus compilation.
+
+### **Outlook and Contact**
+
+Future developments of EPICOL18 may entail launching it as a package, an executable file, or hosting it online to make it more user-friendly. The text selection might also be extended and additional features added (any suggestions are highly welcome). If you have any questions or encounter any problems, feel free to reach out to me!
