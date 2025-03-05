@@ -1,4 +1,4 @@
-# **EPICOL18 \- Corpus Query Interface**
+# **EPICOL18 \- Corpus Query Web-Interface**
 
 <p align="center">
     <img width="100%" src="post_files/epicol18.png">
