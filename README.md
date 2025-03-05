@@ -4,7 +4,7 @@
     <img width="100%" src="post_files/epicol18.png">
 </p>
 
-### **📖 About EPICOL18 Web-Application** 
+### **📖 About EPICOL18** 
 
 The *Corpus of Long Eighteenth-Century Epistolary Novels* (EPICOL18) lends itself well for genre-specific research questions, text-specific research questions, stylometry and author stylistic analyses. This web-based corpus interface allows for an easy and user-friendly exploration of EPICOL18. It may also lend itself well for historical corpus linguistic questions, but it should be considered that the spelling was modernised and the text was cleaned from any meta-information (e.g. headers, front/back matter). 
 
