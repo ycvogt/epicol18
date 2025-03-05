@@ -127,7 +127,7 @@ Now you are on the main page of EPICOL18. Enjoy perusing!
 
 ### 🏷️ **License**
 
-Please mind the licence posted with this repository. You may use my app to do research, but please cite my work appropriately.
+Please mind the licence posted with this repository under ```LICENSE```. You are free to use my repository to do research, provided that you cite my work appropriately.
 
 ### 📚 **Sources** 
 
@@ -135,6 +135,6 @@ Please see the sources.txt file for an entire list of the sources for the corpus
 
 ### **Outlook and Contact**
 
-Future developments of EPICOL18 may entail launching it as a package, an executable file, or hosting it online to make it more user-friendly. The text selection might also be extended and additional features added (any suggestions are highly welcome). If you have any questions or encounter any problems, feel free to reach out to me!
+FThe text selection might be extended and additional features added (any suggestions are highly welcome). If you have any questions or encounter any problems, feel free to reach out to me!
 
 [1] For an introduction to regular expressions, see: https://regexr.com/ (last accessed 4 March 2025).
