@@ -93,37 +93,35 @@ The app uses Dash for the frontend, Flask as the web server, and SQL for storing
 
 **Step 1**
 
-Download all the files above and contact me about the data files: ```books.db``` and ```ngrams_2.csv```, ```ngrams_3.csv```, ```ngrams_4.csv```, ```ngrams_5.csv```. Since they were too big to upload here, I decided to make them available upon request. 
+* Download all the files in the folder ```epicol18```. Contact me about access to the necessary data files: ```books.db``` and ```ngrams_2.csv```, ```ngrams_3.csv```, ```ngrams_4.csv```, ```ngrams_5.csv```. Since they were too big to upload here, I decided to make them available upon request.
+* Basic use of Python is necessary to launch the web-app. Ensure all files are stored in the same directory and that all dependencies are installed, see ```requirements.txt```. 
 
 **Step 2**
 
-Basic use of Python is necessary to launch the web-app. Ensure all files are in the same directory and that all dependencies are installed that are mentioned in the ```requirements.txt```. You can do this with the following command:
-
-```
-pip install -r requirements.txt
-```
-
-Navigate in your terminal to the directory in which all files are stored, then execute the main.py file with python: 
-
-```
-python main.py
-```
-
-After a few seconds, this should appear:
-
-```
-Dash is running on http://127.0.0.1:8050/
- * Serving Flask app 'main'
- * Debug mode: off
-WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on http://127.0.0.1:8050
-```
-   
-You can ignore the warning. Click either of the http://127.0.0.1:8050 links, which will open a browser window. 
+* If you use an IDE, allow your IDE to install all requirements once you loaded all files in your new project.
+* If you use the terminal, use the following command in the directory where the files are located:
+    ```
+    pip install -r requirements.txt
+    ```
 
 **Step 3**
 
-Now you are on the main page of EPICOL18. Enjoy perusing!
+* In your IDE of choice, run the ```main.py``` file.
+* Alternatively, using the terminal, ensure you are in the directory where all files are stored, then execute the ```main.py``` file with python: 
+    ```
+    python main.py
+    ```
+
+* After a few seconds, this should appear:
+    ```
+    Dash is running on http://127.0.0.1:8050/
+     * Serving Flask app 'main'
+     * Debug mode: off
+    WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+     * Running on http://127.0.0.1:8050
+    ```
+* You can ignore the warning. Click either of the http://127.0.0.1:8050 links, which will open a browser window. 
+* Now you are on the main page of EPICOL18. Enjoy perusing!
 
 ### 🏷️ **License**
 
