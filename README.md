@@ -88,7 +88,7 @@ The app uses Dash for the frontend, Flask as the web server, and SQL for storing
 
 **Step 1**
 
-Download all the files above and contact me about the data files: books.db and ngrams_2.csv, ngrams_3.csv, ngrams_4.csv, ngrams_5.csv. Since they were too big to upload here, I decided to make them available upon request. 
+Download all the files above and contact me about the data files: ```books.db``` and ```ngrams_2.csv```, ```ngrams_3.csv```, ```ngrams_4.csv```, ```ngrams_5.csv```. Since they were too big to upload here, I decided to make them available upon request. 
 
 **Step 2**
 
