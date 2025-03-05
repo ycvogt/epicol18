@@ -56,6 +56,7 @@ The following table (Table 1) describes the structure of EPICOL. Tokens are indi
 | 1771 | The Expedition of Humphry Clinker                                          | Tobias Smollett         | 149999  | 3.67  | 12130 | 10743  |  
 | 1693 | Olinda's Adventures: or the Amours of a Young Lady                         | Catharine Trotter       | 22110   | 0.54  | 2240  | 2103   |  
 |      | Total                                                                      |                         | 4089759 | \-    | 33679 | 29222  |
+
 Table 1. Works included in EPICOL18 with their token, type and lemma counts.
 
 ### **💡 Functions and Features (with Examples/Screenshots)**
