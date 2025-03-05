@@ -1,4 +1,4 @@
-# Documentaton and User Guide
+# User Guide EPICOL18 Features
 
 <p align="center" width="100%">
     <img src="post_files/epicol18.png">
