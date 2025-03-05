@@ -25,7 +25,7 @@ Selection criteria:
 
 The time frame for this corpus is set from the years leading up to the Glorious Revolution in 1688 and the years following the end of the Napoleonic Wars in 1815 and the death of George III in 1820\. This time-frame might however be under revision, depending on how the corpus will continue to evolve. Literary resources were           consulted to find and also verify whether a novel qualified as "epistolary" (Beebee 1999, Bray 2003 and others). The corpus was originally designed for my Master's Thesis Project, which analysed lexico-grammatical patterns in the meta-discourse on proper and improper behaviour through collocations. For that reason, the corpus size had to be manageable enough for qualitative contextualization, but also big enough for statistically sound results. Now, the corpus may be expanded further to allow for a more comprehensive overview of the texts.
 
-The text was edited to match the modernised spelling in VARD2, and front/back matter as well as chapter headers were removed. For example, remov’d was normalized to removed, ca to can (split from tokenization can’t) and Further manual edits were done to eliminate annotations that might impact machine-readability. Any research concerning old spelling variants or the novel structure is not possible. 
+The text was edited to match the modernised spelling in VARD2 (Baron and Rayson 2008), and front/back matter as well as chapter headers were removed. For example, remov’d was normalized to removed, ca to can (split from tokenization can’t) and Further manual edits were done to eliminate annotations that might impact machine-readability. Any research concerning old spelling variants or the novel structure is not possible. 
 
 The following table (Table 1) describes the structure of EPICOL. Tokens are individual words.  Types represent unique words and lemmas are the number of unique word root forms. Of the 28 texts,spanning over 4 million words. This corpus was also tagged for parts-of-speech and tokenized with the spacy tagger and tokenizer, which uses the Universal POS-Tag Set. The tagged results were checked and a domain-specific vocabulary with POS-tag mapping was created for frequent mistakes, in addition to manual correction after inspection. This tagger tags with roughly 97 percent reported accuracy for modern texts, and did quite well here as well. Punctuation is excluded.
 
@@ -130,6 +130,16 @@ Please mind the licence posted with this repository under ```LICENSE```. You are
 ### 📚 **Sources** 
 
 Please see the sources.txt file for an entire list of the sources for the corpus compilation.
+
+Baron, A. and Rayson, P. (2008). VARD 2: A Tool for Dealing with Spelling Variation in Historical Corpora. Proceedings of the Postgraduate Conference in Corpus
+Linguistics. Birmingham: Aston University, 22 May 2008.<br>
+Beebee, Thomas. 1999. Epistolary Fiction in Europe, 1500-1850. Cambridge:Cambridge University Press.<br>
+Bray, Joe. 2003. The Epistolary Novel Representations of Consciousness. London: Routledge.<br>
+Early English Books Online (EEBO). Available at<https://quod.lib.umich.edu/e/eebo?key=title;page=browse;value=f> (lastaccessed August 20, 2022).<br>
+Eighteenth Century Collections Online (ECCO). Available at <https://textcreationpartnership.org/using-tcp-content/citing-the-tcp/> (last accessed August 20, 2022).<br>
+Ockerbloom, John Mark(ed.) The Online Books Page. Available at <https://onlinebooks.library.upenn.edu/> (last accessed August 20, 2022).<br>
+Project Gutenberg. Available at <https://www.gutenberg.org/> (last accessed August 20, 2022).<br>
+The Oxford Text Archive. Available at <https://ota.bodleian.ox.ac.uk/repository/xmlui/> (last accessed August 20, 2022).
 
 ### **Outlook and Contact**
 
