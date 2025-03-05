@@ -1,7 +1,7 @@
 # **EPICOL18 \- Corpus Query Interface**
 
-<p align="center" width="50px">
-    <img src="post_files/EPICOL18.png">
+<p align="center">
+    <img width="100%" src="post_files/epicol18.png">
 </p>
 
 ### **📖 About EPICOL18 Web-Application** 
