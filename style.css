@@ -1,0 +1,125 @@
+body {
+
+/* Dropdown styles */
+.dash-dropdown .Select__single-value {
+    color: #555;  /* Change selected value text color */
+}
+
+.dash-dropdown .Select__indicator {
+    color: #555;  /* Change the color of the dropdown arrow */
+}
+
+.dash-dropdown .Select__menu {
+    background-color: #555;  /* Background color of the dropdown */
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner table {
+    --accent: #555;  /* New accent color */
+    --text-color: #333;  /* New text color */
+}
+.Select--multi .Select-value {
+    background-color: #eeeeee;
+    border: 1px solid #555555;
+    color: #555;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.4;
+    margin-left: 5px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.Select-control:hover {
+  box-shadow: 0 1px 0 #eeeeee;
+}
+.dcc-dropdown .Select-option:hover {
+    background-color: #929585 !important;
+    color: white !important;
+}
+
+.Select--multi .Select-value {
+  color: #555;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.Select--multi .Select-value-icon:hover, .Select--multi .Select-value-icon:focus {
+  background-color: #eeeeee;
+  background-color: #cccccc;
+  color: #555;
+}
+.Select--multi .Select-value-icon {
+  cursor: pointer;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  border-right: 1px solid #555555;
+  border-right: 1px solid #555555;
+  padding: 1px 5px 3px;
+}
+.Select-clear-zone:hover {
+  color: #555;
+}
+
+.dcc-dropdown .react-select__menu-list .react-select__option:hover {
+    background-color: #929585 !important;  /* Set the hover color (red) */
+    color: white !important;  /* Set text color to white on hover */
+}
+
+
+input.dash-input:valid {
+  outline: none;
+}
+
+.Select-control, .Select-input > input {
+  width: 90%;
+  cursor: default;
+  outline: 0;
+}
+
+.rc-slider-handle:hover {
+  border-color:  #929585;
+}
+.rc-slider-dot-active {
+  border-color: #929585;
+  -webkit-tap-highlight-color: #929585;
+}
+Element {
+  left: 33.3333%;
+  right: auto;
+  transform: translateX(-50%);
+}
+.rc-slider-handle {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  cursor: -webkit-grab;
+  margin-top: -5px;
+  cursor: grab;
+  border-radius: 50%;
+  border: solid 2px #929585;
+  background-color: #fff;
+  touch-action: pan-x;
+}
+.rc-slider-track {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  border-radius: 6px;
+  background-color: #929585;
+
+
+.dash-sk-circle .dash-sk-circle1 {
+  background-color: #555; /* First segment color */
+}
+
+.dash-sk-circle .dash-sk-circle2 {
+  background-color: #555; /* Second segment color */
+}
+
+.dash-sk-circle .dash-sk-circle3 {
+  background-color:#555; /* Third segment color */
+}
+}
+
+
