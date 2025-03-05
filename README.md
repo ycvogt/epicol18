@@ -1,5 +1,9 @@
 # **EPICOL18 \- Corpus Query Interface**
 
+<p align="center" width="100%">
+    <img src="post_files/EPICOL18.png">
+</p>
+
 ### **📖 About EPICOL18 WebApp** 
 
 The *Corpus of Long Eighteenth-Century Epistolary Novels* (EPICOL18) lends itself well for genre-specific research questions, text-specific research questions, stylometry and author stylistic analyses. This web-based corpus interface allows for an easy and user-friendly exploration of EPICOL18. It may also lend itself well for historical corpus linguistic questions, but it should be considered that the spelling was modernised and the text was cleaned from any meta-information (e.g. headers, front/back matter). 
@@ -121,9 +125,9 @@ You can ignore the warning. Click either of the http://127.0.0.1:8050 links, whi
 
 Now you are on the main page of EPICOL18. Enjoy perusing!
 
-### **License**
+### 🏷️ **License**
 
-You may use my app to do research, but please cite my work appropriately.
+Please mind the licence posted with this repository. You may use my app to do research, but please cite my work appropriately.
 
 ### 📚 **Sources** 
 
