@@ -143,6 +143,6 @@ The Oxford Text Archive. Available at <https://ota.bodleian.ox.ac.uk/repository/
 
 ### **Outlook and Contact**
 
-FThe text selection might be extended and additional features added (any suggestions are highly welcome). If you have any questions or encounter any problems, feel free to reach out to me!
+The text selection might be extended and additional features added (any suggestions are highly welcome). If you have any questions or encounter any problems, feel free to reach out to me!
 
 [1] For an introduction to regular expressions, see: https://regexr.com/ (last accessed 4 March 2025).
