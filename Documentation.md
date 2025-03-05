@@ -1,7 +1,7 @@
 # EPICOL18 - An interactive corpus-interface to an 18th century epistolary novels corpus
 
 <p align="center" width="100%">
-    <img src="post_files/EPICOL18.png">
+    <img src="post_files/epicol18.png">
 </p>
 
 ## Start page
