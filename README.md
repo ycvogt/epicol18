@@ -1,6 +1,6 @@
 # **EPICOL18 \- Corpus Query Interface**
 
-<p align="center" width="100%">
+<p align="center" width="50%">
     <img src="post_files/EPICOL18.png">
 </p>
 
