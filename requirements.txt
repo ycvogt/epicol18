@@ -100,10 +100,11 @@ tzdata==2024.2
 urllib3==1.26.15
 wasabi==0.10.1
 weasel==0.4.1
-Werkzeug==2.2.0
+Werkzeug==3.0.6
 wordcloud
 zipp==3.20.2
 zope.event==5.0
 zope.interface==7.2
+
 
 
