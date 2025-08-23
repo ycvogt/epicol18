@@ -33,7 +33,6 @@ en_core_web_trf @ https://github.com/explosion/spacy-models/releases/download/en
 filelock==3.16.1
 Flask==2.2.0
 fsspec==2024.10.0
-future
 gensim==3.0.0
 gevent==24.11.1
 gevent-websocket==0.10.1
@@ -106,4 +105,5 @@ wordcloud
 zipp==3.20.2
 zope.event==5.0
 zope.interface==7.2
+
 
